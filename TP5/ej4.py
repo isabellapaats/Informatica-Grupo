@@ -43,13 +43,13 @@ class Contador:
     
     def reset(self):
         self.numero = 0
-
+"""
     def guardar_numero(self):
         return numero = self.numero
     
     def volver_original(self,numero):
         self.numero = numero
-    
+    """
 
 a = Contador(110)
 print (a.guardar_numero())
