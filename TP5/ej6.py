@@ -8,13 +8,32 @@ restar(numero)
 multiplicar(numero)
 valorActual()
 """
-# Si se evalúa la siguiente secuencia: el resultado debe ser 24.
+
+class Calculadora:
+    def __init__(self, numero):
+        self.numero = numero
+
+    def cargar(self, c):
+        self.numero = c
+
+    def sumar(self, n):
+        self.numero + self.n = numero
+
+    def restar(self, n):
+        self.numero - self.n = numero
+
+    def multiplicar(self, n):
+        self.numero * self.n = numero
+
+    def valorActual(self):
+        self.numero
 
 calculadora = Calculadora
-calculadora.cargar(0)
-calculadora.sumar(4)
-calculadora.multiplicar(5)
-calculadora.restar(8)
-calculadora.multiplicar(2)
-calculadora.valorActual()
+print(calculadora.cargar(0))
+print(calculadora.sumar(4))
+print(calculadora.multiplicar(5))
+print(calculadora.restar(8))
+print(calculadora.multiplicar(2))
+print(calculadora.valorActual())
 
+# Si se evalúa la siguiente secuencia: el resultado debe ser 24.
