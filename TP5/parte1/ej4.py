@@ -48,8 +48,12 @@ class Contador:
         return numero = self.numero 
     def volver_original(self,numero):
         self.numero = numero
+<<<<<<< HEAD:TP5/parte1/ej4.py
 """
     
+=======
+    """
+>>>>>>> 433cf3c9fac3ced0bbdee0db6bec2dc975dc727e:TP5/ej4.py
 
 a = Contador(110)
 print (a.guardar_numero())
