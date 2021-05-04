@@ -17,7 +17,7 @@ class Perro:
     def estaDebil(self):
         return self._caricias < 2
 
-#interfaz = los mensajes que pueden llegar a entdender los objetos
+#interfas = los mensajes que pueden llegar a entdender los objetos
 # --> energia, comer, acariciar, estaDebil
 #estado = atributos. los atributos estan definidos en el constructor. 
 """el constructor es def__init__(self)"""
