@@ -5,8 +5,8 @@
 """
 inc() listo
 dis() listo
-reset()
-valorActual()
+reset() listo
+valorActual() listo
 valorNuevo(nuevoValor) listo
 """
 # Como ejemplo el resultado de ejecutar las siguientes líneas tiene que ser 12 y 25.
@@ -43,12 +43,12 @@ class Contador:
     
     def reset(self):
         self.numero = 0
-
+"""
     def guardar_numero(self):
-        return numero = self.numero
-    
+        return numero = self.numero 
     def volver_original(self,numero):
         self.numero = numero
+"""
     
 
 a = Contador(110)
